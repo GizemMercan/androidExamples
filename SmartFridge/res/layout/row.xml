@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutOfRow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingRight="20dp" >
+
+    <ImageView
+        android:id="@+id/Listimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="1dp"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:textSize="20px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtExpDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:textSize="20px"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="118dp"
+        android:layout_height="46dp"
+        android:paddingRight="100dp"
+        android:layout_alignParentRight="true" />
+
+</LinearLayout>

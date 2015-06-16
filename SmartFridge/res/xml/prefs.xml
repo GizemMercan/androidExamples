@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ 
+ <PreferenceCategory
+   android:summary="Choose your foods which are monitored for notification"
+   android:title="Notification Settings" >
+  <CheckBoxPreference
+     android:key="checkBoxMilk"
+     android:summary="Notificiation On/Off"
+     android:title="Milk" />
+    <CheckBoxPreference
+     android:key="checkBoxMeat"
+     android:summary="Notificiation On/Off"
+     android:title="Meat" />
+        <CheckBoxPreference
+     android:key="checkBoxChicken"
+     android:summary="Notificiation On/Off"
+     android:title="Chicken" />
+            <CheckBoxPreference
+     android:key="checkBoxButter"
+     android:summary="Notificiation On/Off"
+     android:title="Butter" />
+             <CheckBoxPreference
+     android:key="checkBoxJam"
+     android:summary="Notificiation On/Off"
+     android:title="Jam" />
+    <CheckBoxPreference
+     android:key="checkBoxOrangeJuice"
+     android:summary="Notificiation On/Off"
+     android:title="Oranje Juice" />
+        <CheckBoxPreference
+     android:key="checkBoxTomato"
+     android:summary="Notificiation On/Off"
+     android:title="Tomato" />
+            <CheckBoxPreference
+     android:key="checkBoxCarrot"
+     android:summary="Notificiation On/Off"
+     android:title="Carrot" />
+  <ListPreference
+     android:entries="@array/listOptions"
+     android:entryValues="@array/listValues"
+     android:key="listpref"
+     android:summary="List preference example"
+     android:title="List preference" />
+ </PreferenceCategory>
+</PreferenceScreen>

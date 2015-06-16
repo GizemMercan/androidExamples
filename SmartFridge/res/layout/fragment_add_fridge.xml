@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add_fridge" />
+
+    <TextView
+        android:id="@+id/ChooseFridgeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="16dp"
+        android:text="Adding Fridge"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewFridgeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fridge Name:" />
+
+        <EditText
+            android:id="@+id/editTextFridgeName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus android:layout_width="match_parent" />
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/textViewFridgeKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fridge Key:" />
+
+        <EditText
+            android:id="@+id/editTextFridgeKey"
+            android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textViewBrand"
+             android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="Brand:" />
+
+        <EditText
+            android:id="@+id/editTextBrand"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAddFridge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Add" />
+
+</LinearLayout>

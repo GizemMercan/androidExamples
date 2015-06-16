@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/counter_text_color"
+    android:orientation="vertical"
+    android:padding="8dp" xmlns:android1="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/videos_group_indicator"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ref2" />
+
+        <TextView
+            android:id="@+id/lblListHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android1:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+    
+
+</LinearLayout>
